@@ -142,6 +142,7 @@ The following tables provide an overview of the Scryfall API endpoints used and 
 |--------|--------|--------
 |RcppSimdJson | Parses Scryfall's returned JSON | Earlier iterations of a related project used jsonlite; use of jsonlite takes several hours, during which time crashes are increasingly likely. |
 |data.table | Required for tabular data after JSON is parsed | Keyed joins are necessary for cross-referencing parent objects with their child datasets (e.g., cards by Oracle ID).|
+|stringr | Wrangling rules text raw data | Testing required for use of data dictionary.|
 
 The Scryfall data contains variables which consist of nested JSON (requiring further parsing), observations of objects not relevant to this project (such as tokens), variables embedded in strings (such as the words of a *type line*), and other features that are predictable but will require predictable wrangling.
 
@@ -156,8 +157,7 @@ The Scryfall data contains variables which consist of nested JSON (requiring fur
 
 ## Expected Implications 
 
-
-More generally and assuming this prototype contributes effectively to longer-term development, *`cardknower`* belongs to a project/collection of projects aiming to make data analysis of *Magic* more accessible to anyone close enough to the game to have questions. Success on this level bodes well for utility for researchers in fields where *Magic* is a useful case study (see References) and for increasing access for laypeople.
+Resolution of the above research questions demonstrates that *`cardknower`*'s approach to generating *Magic* analytics is successful and provides answers of interest to (in order) people invested in the game design over time aspect, people curious about and discontent with the Anglocentrism of the game, and people who care about secondary market prices of staple cards. More generally and assuming this prototype contributes effectively to longer-term development, *`cardknower`* belongs to a project/collection of projects aiming to make data analysis of *Magic* more accessible to anyone close enough to the game to have questions. Success on this level bodes well for utility for researchers in fields where *Magic* is a useful case study (see References) and for increasing access for laypeople.
 
 ## Limitations
 
