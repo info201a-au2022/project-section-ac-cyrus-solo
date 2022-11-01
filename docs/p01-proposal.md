@@ -18,7 +18,7 @@ Magic: the Gathering; trading card games; game design; fandom; open data
 
 ## Introduction
 
-*Magic: the Gathering* (hereafter *Magic*) is a collectible trading card game originally created by Richard Garfield and 
+*Magic: the Gathering* (hereafter *Magic*) is a collectible trading card game originally created by Richard Garfield and now owned by Wizards of the Coast (itself owned by Hasbro). Its thirty-year history produces a wide span of game design and culture shifts while having earned it a large, heterogenous audience. Much information reflecting that timespan and of potential interest to those populations is freely available. Less has been collated and optimized for analysis, either for research or casual curiosity. This project is part of a larger approach to changing the latter.
 
 ## Problem Domain
 
