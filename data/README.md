@@ -1,13 +1,11 @@
 # The `\data` Directory: Project Data Summary 
 
-In our project, we use the following data files and Application Programming Interfaces:
-
 ## Data files (TODO: Update/delete for your PROJECT)
 
-> **Add notes on JSON in gitignore**
-> 
-> Add CSV breakdown 
-> Add ingestion script
+- ~~Add notes on JSON in gitignore~~
+- Add truncated ingestion script
+- Finalize disposición de CSVs 
+- Describe CSVs here.
 
 |Data File Name | Brief Description|
 |---------------| -----------------|
