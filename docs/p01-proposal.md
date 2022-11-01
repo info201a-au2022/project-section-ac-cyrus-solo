@@ -1,4 +1,4 @@
-# *MTG cardknower*: Project Proposal 
+# *MTG cardknower*: Accessible Analysis for Arbitrary *Magic* Answers
 
 ## Metadata 
 
@@ -211,3 +211,4 @@ Manis, M. (2012). The “Magic: the Gathering” Lexicon (Order No. 1510404). Pr
 - As detailed in the *Limitations* section, the project was designed to support automatic updates but the structure of this class and the nature of services offered by shinyapps.io make implementing that aspect here impossible. This is also why I've opted to leave out information about digital-only cards: the database architecture I've used to support including them is untenable in SQLite, shinyapps.io doesn't support persistent storage, and my experience has been that attempting to provide hosting on my own server for class projects where that isn't an expected part of the project will end in tears. How explicitly do you want me to acknowledge this going forward? 
 - Even aside from that, there's a lot of information that I think is important, that seemed to logically belong in *Limitations*, and that conflicts with the instructions' specifying that the section in question is for the proposal only. I would appreciate any thoughts on what to adapt/keep for the final product and how to do so that you may have.
 - I think I copied everything out of the repo that I couldn't actually submit because it was under 201b. I *think*. Please let me know if I missed anything when committing this.
+- This one *is* allowed to be public, right? I have a friend I want to show things.
